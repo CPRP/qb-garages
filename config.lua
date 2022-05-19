@@ -1,5 +1,6 @@
 AutoRespawn = false --True == auto respawn cars that are outside into your garage on script restart, false == does not put them into your garage and players have to go to the impound
 SharedGarages = false   --True == Gang and job garages are shared, false == Gang and Job garages are personal
+VisuallyDamageCars = true --True == Visually damage cars that go out of the garage depending of body damage, false == Do not visually damage cars (damage is still applied to car values)
 
 Garages = {
     ["motelgarage"] = {
@@ -92,8 +93,8 @@ Garages = {
     },
     ["themotorhotel"] = {
         label = "The Motor Hotel Parking",
-        takeVehicle = vector3(1137.77, 2663.54, 37.9),            
-        spawnPoint = vector4(1137.69, 2673.61, 37.9, 359.5),      
+        takeVehicle = vector3(1137.77, 2663.54, 37.9),
+        spawnPoint = vector4(1137.69, 2673.61, 37.9, 359.5),
         putVehicle = vector3(1137.75, 2652.95, 37.9),
         showBlip = true,
         blipName = "Public Parking",
@@ -126,7 +127,7 @@ Garages = {
     ["haanparking"] = {
         label = "Bell Farms Parking",
         takeVehicle = vector3(78.34, 6418.74, 31.28),
-        spawnPoint = vector4(70.71, 6425.16, 30.92, 68.5), 
+        spawnPoint = vector4(70.71, 6425.16, 30.92, 68.5),
         putVehicle = vector3(85.3, 6427.52, 31.33),
         showBlip = true,
         blipName = "Public Parking",
@@ -137,7 +138,7 @@ Garages = {
     ["dumbogarage"] = {
         label = "Dumbo Private Parking",
         takeVehicle = vector3(157.26, -3240.00, 7.00),
-        spawnPoint = vector4(165.32, -3236.10, 5.93, 268.5), 
+        spawnPoint = vector4(165.32, -3236.10, 5.93, 268.5),
         putVehicle = vector3(165.32, -3230.00, 5.93),
         showBlip = true,
         blipName = "Public Parking",
@@ -352,7 +353,7 @@ Garages = {
     --     vehicle = 'air'                 --car, air, sea
     -- },
     ["lsymc"] = {
-        label = "LSYMC Boathouse",               
+        label = "LSYMC Boathouse",
         takeVehicle = vector3(-794.66, -1510.83, 1.59),
         spawnPoint = vector4(-793.58, -1501.4, 0.12, 111.5),
         putVehicle = vector3(-793.58, -1501.4, 0.12),
@@ -363,7 +364,7 @@ Garages = {
         vehicle = 'sea'                 --car, air, sea
     },
     ["paleto"] = {
-        label = "Paleto Boathouse",               
+        label = "Paleto Boathouse",
         takeVehicle = vector3(-277.46, 6637.2, 7.48),
         spawnPoint = vector4(-289.2, 6637.96, 1.01, 45.5),
         putVehicle = vector3(-289.2, 6637.96, 1.01),
@@ -374,7 +375,7 @@ Garages = {
         vehicle = 'sea'                 --car, air, sea
     },
     ["millars"] = {
-        label = "Millars Boathouse",               
+        label = "Millars Boathouse",
         takeVehicle = vector3(1299.24, 4216.69, 33.9),
         spawnPoint = vector4(1297.82, 4209.61, 30.12, 253.5),
         putVehicle = vector3(1297.82, 4209.61, 30.12),
@@ -385,7 +386,7 @@ Garages = {
         vehicle = 'sea'                 --car, air, sea
     },
     ["seadepot"] = {
-        label = "LSYMC Depot",               
+        label = "LSYMC Depot",
         takeVehicle = vector3(-772.98, -1430.76, 1.59),
         spawnPoint = vector4(-729.77, -1355.49, 1.19, 142.5),
         putVehicle = vector3(-729.77, -1355.49, 1.19),
