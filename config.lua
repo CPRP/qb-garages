@@ -148,7 +148,7 @@ Garages = {
     },
     ["pillboxgarage"] = {
         label = "Pillbox Garage Parking",
-        takeVehicle = vector3(215.9499, -809.698, 30.731),
+        takeVehicle = vector3(213.73, -809.09, 31.01),
         spawnPoint = vector4(234.1942, -787.066, 30.193, 159.6),
         putVehicle = vector3(218.0894, -781.370, 30.389),
         showBlip = true,
