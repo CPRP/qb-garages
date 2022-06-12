@@ -189,9 +189,9 @@ Garages = {
         vehicle = 'car',              --car, air, sea
         job = "ballas"
     },
-    ["families"] = {
-        label = "La Familia",
-        takeVehicle = vector3(-811.65, 187.49, 72.48),
+    ["thesaints"] = {
+        label = "The Saints",
+        takeVehicle = vector3(-814.86, 183.15, 72.46),
         spawnPoint = vector4(-818.43, 184.97, 72.28, 107.85),
         putVehicle = vector3(-811.65, 187.49, 72.48),
         showBlip = false,
@@ -199,7 +199,7 @@ Garages = {
         blipNumber = 291,
         type = 'gang',                --public, job, gang, depot
         vehicle = 'car',              --car, air, sea
-        job = "families"
+        job = "thesaints"
     },
     ["vagos"] = {
         label = "Vagos",
@@ -213,8 +213,8 @@ Garages = {
         vehicle = 'car',              --car, air, sea
         job = "vagos"
     },
-    ["lostmc"] = {
-        label = "Lost MC",
+    ["yellowgang"] = {
+        label = "Yellow Gang",
         takeVehicle = vector3(957.25, -129.63, 74.39),
         spawnPoint = vector4(957.25, -129.63, 74.39, 199.21),
         putVehicle = vector3(950.47, -122.05, 74.36),
@@ -223,19 +223,19 @@ Garages = {
         blipNumber = 291,
         type = 'gang',                --public, job, gang, depot
         vehicle = 'car',              --car, air, sea
-        job = "lostmc"
+        job = "yellowgang"
     },
-    ["cartel"] = {
-        label = "Cartel",
+    ["devilssons"] = {
+        label = "The Devils Sons",
         takeVehicle = vector3(1993.32, 3039.3, 47.03),
         spawnPoint = vector4(1991.93, 3031.77, 47.06, 55.93),
         putVehicle = vector3(1994.15, 3035.63, 47.03),
         showBlip = false,
-        blipName = "Cartel",
+        blipName = "The Devils Sons",
         blipNumber = 291,
         type = 'gang',                --public, job, gang, depot
         vehicle = 'car',              --car, air, sea
-        job = "cartel"
+        job = "devilssons"
     },
     ["police"] = {
         label = "LSPD Garage",
