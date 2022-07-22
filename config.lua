@@ -167,10 +167,20 @@ Garages = {
     --    type = 'depot',                --public, job, gang, depot
     --    vehicle = 'car'                 --car, air, sea
     --},
+    -- ["impoundlot"] = { --- OLD IMPOUND LOT
+    --     label = "Impound Lot",
+    --     takeVehicle = vector3(409.89, -1623.51, 29.29),
+    --     spawnPoint = vector4(407.92, -1646.29, 29.29, 226.39),
+    --     showBlip = true,
+    --     blipName = "Impound Lot",
+    --     blipNumber = 68,
+    --     type = 'depot',                --public, job, gang, depot
+    --     vehicle = 'car'                 --car, air, sea
+    -- },
     ["impoundlot"] = {
         label = "Impound Lot",
-        takeVehicle = vector3(409.89, -1623.51, 29.29),
-        spawnPoint = vector4(407.92, -1646.29, 29.29, 226.39),
+        takeVehicle = vector3(-191.67, -1162.3, 23.67),
+        spawnPoint = vector4(-209.12, -1168.77, 23.04, 180.85),
         showBlip = true,
         blipName = "Impound Lot",
         blipNumber = 68,
