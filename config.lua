@@ -187,17 +187,17 @@ Garages = {
         type = 'depot',                --public, job, gang, depot
         vehicle = 'car'                 --car, air, sea
     },
-    ["diamondmafia"] = {
-        label = "Diamond Mafia",
-        takeVehicle = vector3(1399.55, 1114.5, 114.84),
-        spawnPoint = vector4(1393.82, 1117.33, 114.84, 90.65),
-        putVehicle = vector3(1413.66, 1118.6, 114.84),
+    ["demons"] = {
+        label = "Unknown Demons",
+        takeVehicle = vector3(-128.83, 1010.89, 235.73),
+        spawnPoint = vector4(-123.41, 1005.39, 235.73, 203.23),
+        putVehicle = vector3(-126.76, 1015.16, 235.73),
         showBlip = false,
-        blipName = "Diamond Mafia",
+        blipName = "Unknown Demons",
         blipNumber = 291,
         type = 'gang',                --public, job, gang, depot
         vehicle = 'car',              --car, air, sea
-        job = "diamondmafia"
+        job = "demons"
     },
     ["thesaints"] = {
         label = "The Saints",
