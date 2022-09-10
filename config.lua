@@ -235,17 +235,17 @@ Garages = {
         vehicle = 'car',              --car, air, sea
         job = "yellowgang"
     },
-    ["devilssons"] = {
-        label = "The Devils Sons",
-        takeVehicle = vector3(1993.32, 3039.3, 47.03),
-        spawnPoint = vector4(1991.93, 3031.77, 47.06, 55.93),
-        putVehicle = vector3(1994.15, 3035.63, 47.03),
+    ["ogmafia"] = {
+        label = "OG Mafia Bloods",
+        takeVehicle = vector3(-1566.09, -396.17, 41.98),
+        spawnPoint = vector4(-1550.86, -415.3, 41.99, 320.78),
+        putVehicle = vector3(-1568.62, -391.51, 41.98),
         showBlip = false,
-        blipName = "The Devils Sons",
+        blipName = "OG Mafia Bloods",
         blipNumber = 291,
         type = 'gang',                --public, job, gang, depot
         vehicle = 'car',              --car, air, sea
-        job = "devilssons"
+        job = "ogmafia"
     },
     ["police"] = {
         label = "LSPD Garage",
