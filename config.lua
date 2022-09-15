@@ -406,5 +406,93 @@ Garages = {
         type = 'depot',                --public, job, gang, depot
         vehicle = 'sea'                 --car, air, sea
     },
+    ["cairoperico"] = {
+        label = "Cairo Perico Parking",
+        takeVehicle = vector3(4524.21, -4522.43, 4.85),
+        spawnPoint = vector4(4513.55, -4511.81, 4.16, 351.99),
+        putVehicle = vector3(4529.13, -4528.42, 4.14),
+        showBlip = true,
+        blipName = "Public Parking",
+        blipNumber = 357,
+        type = 'public',                --public, job, gang, depot
+        vehicle = 'car'                 --car, air, sea
+    },
+    ["cairoperico2"] = {
+        label = "Cairo Perico Boathouse",
+        takeVehicle = vector3(4883.67, -5171.23, 2.49),
+        spawnPoint = vector4(4888.29, -5152.35, -0.27, 12.46),
+        putVehicle = vector3(4885.3, -5164.62, -0.39),
+        showBlip = true,
+        blipName = "Boathouse",
+        blipNumber = 356,
+        type = 'public',                --public, job, gang, depot
+        vehicle = 'sea'                 --car, air, sea
+    },
+    ["cairoperico3"] = {
+        label = "Cairo Perico Boathouse",
+        takeVehicle = vector3(5136.52, -4635.31, 1.44),
+        spawnPoint = vector4(5136.1, -4657.03, -0.55, 181.3),
+        putVehicle = vector3(5136.95, -4642.82, -0.62),
+        showBlip = true,
+        blipName = "Boathouse",
+        blipNumber = 356,
+        type = 'public',                --public, job, gang, depot
+        vehicle = 'sea'                 --car, air, sea
+    },
+    ["cairoperico4"] = {
+        label = "Cairo Perico Hangar", 
+        takeVehicle = vector3(4452.62, -4474.83, 4.33),
+        spawnPoint = vector4(4484.31, -4496.96, 4.19, 109.76),
+        putVehicle = vector3(4484.76, -4455.22, 4.22),
+        showBlip = true,
+        blipName = "Hangar",
+        blipNumber = 360,
+        type = 'public',                --public, job, gang, depot
+        vehicle = 'air'                 --car, air, sea
+    },
+    ["cairoperico5"] = {
+        label = "Cairo Perico Hangar", 
+        takeVehicle = vector3(4893.39, -5279.84, 8.47),
+        spawnPoint = vector4(4882.27, -5282.52, 8.42, 268.27),
+        putVehicle = vector3(4882.27, -5282.52, 8.42),
+        showBlip = true,
+        blipName = "Hangar",
+        blipNumber = 360,
+        type = 'public',                --public, job, gang, depot
+        vehicle = 'air'                 --car, air, sea
+    },
+    ["cairoperico6"] = {
+        label = "Cairo Perico Hangar", 
+        takeVehicle = vector3(4874.25, -5725.82, 26.89),
+        spawnPoint = vector4(4890.4, -5736.66, 26.35, 344.33),
+        putVehicle = vector3(4890.4, -5736.66, 26.35),
+        showBlip = true,
+        blipName = "Hangar",
+        blipNumber = 360,
+        type = 'public',                --public, job, gang, depot
+        vehicle = 'air'                 --car, air, sea
+    },
+    ["lsairport"] = {
+        label = "Los Santos Hangar", 
+        takeVehicle = vector3(-990.07, -3015.28, 13.95),
+        spawnPoint = vector4(-979.1, -2996.38, 13.95, 63.64),
+        putVehicle = vector3(-979.1, -2996.38, 13.95),
+        showBlip = true,
+        blipName = "Hangar",
+        blipNumber = 360,
+        type = 'public',                --public, job, gang, depot
+        vehicle = 'air'                 --car, air, sea
+    },
+    ["lsairport2"] = {
+        label = "Los Santos Helipad", 
+        takeVehicle = vector3(-1137.74, -2868.77, 13.95),
+        spawnPoint = vector4(-1145.76, -2864.44, 13.95, 152.29),
+        putVehicle = vector3(-1145.76, -2864.44, 13.95),
+        showBlip = true,
+        blipName = "Hangar",
+        blipNumber = 360,
+        type = 'public',                --public, job, gang, depot
+        vehicle = 'air'                 --car, air, sea
+    },
 }
 HouseGarages = {}
