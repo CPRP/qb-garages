@@ -472,6 +472,50 @@ Garages = {
         type = 'public',                --public, job, gang, depot
         vehicle = 'air'                 --car, air, sea
     },
+    ["cairoperico7"] = {
+        label = "Cairo Perico Parking", 
+        takeVehicle = vector3(4918.13, -5229.76, 2.52),
+        spawnPoint = vector4(4915.54, -5221.98, 2.52, 35.37),
+        putVehicle = vector3(4918.17, -5235.59, 2.52),
+        showBlip = true,
+        blipName = "Hangar",
+        blipNumber = 357,
+        type = 'public',                --public, job, gang, depot
+        vehicle = 'car'                 --car, air, sea
+    },
+    ["cairoperico8"] = {
+        label = "Cairo Perico Parking", 
+        takeVehicle = vector3(5160.44, -4693.47, 2.21),
+        spawnPoint = vector4(5172.12, -4694.28, 2.26, 46.22),
+        putVehicle = vector3(5166.42, -4697.7, 2.19),
+        showBlip = true,
+        blipName = "Hangar",
+        blipNumber = 357,
+        type = 'public',                --public, job, gang, depot
+        vehicle = 'car'                 --car, air, sea
+    },
+    ["cairoperico9"] = {
+        label = "Cairo Perico Parking", 
+        takeVehicle = vector3(5099.91, -5721.55, 15.77),
+        spawnPoint = vector4(5097.89, -5725.16, 15.77, 52.89),
+        putVehicle = vector3(5092.54, -5731.93, 15.77),
+        showBlip = true,
+        blipName = "Hangar",
+        blipNumber = 357,
+        type = 'public',                --public, job, gang, depot
+        vehicle = 'car'                 --car, air, sea
+    },
+    ["bargeharbor"] = {
+        label = "Los Santos Harbor",
+        takeVehicle = vector3(569.27, -3126.13, 6.07),
+        spawnPoint = vector4(568.8, -3172.02, -0.28, 179.96),
+        putVehicle = vector3(569.18, -3148.55, -0.3),
+        showBlip = true,
+        blipName = "Harbor",
+        blipNumber = 356,
+        type = 'public',                --public, job, gang, depot
+        vehicle = 'sea'                 --car, air, sea
+    },
     ["lsairport"] = {
         label = "Los Santos Hangar", 
         takeVehicle = vector3(-990.07, -3015.28, 13.95),
