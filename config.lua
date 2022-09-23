@@ -295,30 +295,30 @@ Garages = {
         vehicle = 'car',              --car, air, sea
         job = "police"
     },
-    ["pillboxhospital"] = {
-        label = "Pillbox Hospital Garage",
-        takeVehicle = vector3(338.82, -586.61, 28.8),
-        spawnPoint = vector4(324.93, -576.99, 28.8, 160.16),
-        putVehicle = vector3(328.14, -567.92, 28.8),
-        showBlip = true,
-        blipName = "Pillbox Hospital Garage",
-        blipNumber = 498,
-        type = 'job',                --public, job, gang, depot
-        vehicle = 'car',              --car, air, sea
-        job = "ambulance"
-    },
-    ["firefighter1"] = {
-        label = "LSFD Garage",
-        takeVehicle = vector3(-634.21, -101.39, 38.05),
-        spawnPoint = vector4(-646.93, -105.29, 37.96, 127.14),
-        putVehicle = vector3(-639.09, -104.89, 38.03),
-        showBlip = true,
-        blipName = "LSFD Garage",
-        blipNumber = 498,
-        type = 'job',                --public, job, gang, depot
-        vehicle = 'car',              --car, air, sea
-        job = "ambulance"
-    },
+    -- ["pillboxhospital"] = {
+    --     label = "Pillbox Hospital Garage",
+    --     takeVehicle = vector3(338.82, -586.61, 28.8),
+    --     spawnPoint = vector4(324.93, -576.99, 28.8, 160.16),
+    --     putVehicle = vector3(328.14, -567.92, 28.8),
+    --     showBlip = true,
+    --     blipName = "Pillbox Hospital Garage",
+    --     blipNumber = 498,
+    --     type = 'job',                --public, job, gang, depot
+    --     vehicle = 'car',              --car, air, sea
+    --     job = "ambulance"
+    -- },
+    -- ["firefighter1"] = {
+    --     label = "LSFD Garage",
+    --     takeVehicle = vector3(-634.21, -101.39, 38.05),
+    --     spawnPoint = vector4(-646.93, -105.29, 37.96, 127.14),
+    --     putVehicle = vector3(-639.09, -104.89, 38.03),
+    --     showBlip = true,
+    --     blipName = "LSFD Garage",
+    --     blipNumber = 498,
+    --     type = 'job',                --public, job, gang, depot
+    --     vehicle = 'car',              --car, air, sea
+    --     job = "ambulance"
+    -- },
     -- ["intairport"] = {
     --     label = "Airport Hangar", 
     --     takeVehicle = vector3(-1025.92, -3017.86, 13.95),
