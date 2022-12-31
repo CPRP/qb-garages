@@ -185,11 +185,44 @@ Config.Garages = {
         ["vehicle"] = "car"                 --car, air, sea, rig
     },
     ["impoundlot"] = {
-        ["label"] = "Impound Lot",
+        ["label"] = "Los Santos Depot",
         ["takeVehicle"] = vector3(-191.67, -1162.3, 23.67),
         ["spawnPoint"] = vector4(-209.12, -1168.77, 23.04, 180.85),
         ["showBlip"] = true,
-        ["blipName"] = "Impound Lot",
+        ["blipName"] = "Depot",
+        ["blipNumber"] = 68,
+        ["blipColor"] = 3,
+        ["type"] = "depot",                --public, job, gang, depot
+        ["vehicle"] = "car"                 --car, air, sea, rig
+    },
+    ["sandyimpoundlot"] = {
+        ["label"] = "Sandy Depot",
+        ["takeVehicle"] = vector3(1650.18, 3804.93, 38.65),
+        ["spawnPoint"] = vector4(1624.44, 3784.44, 34.67, 311.31),
+        ["showBlip"] = true,
+        ["blipName"] = "Depot",
+        ["blipNumber"] = 68,
+        ["blipColor"] = 3,
+        ["type"] = "depot",                --public, job, gang, depot
+        ["vehicle"] = "car"                 --car, air, sea, rig
+    },
+    ["paletoimpoundlot"] = {
+        ["label"] = "Paleto Depot",
+        ["takeVehicle"] = vector3(-217.54, 6200.96, 31.49),
+        ["spawnPoint"] = vector4(-217.54, 6200.96, 31.49, 165.26),
+        ["showBlip"] = true,
+        ["blipName"] = "Depot",
+        ["blipNumber"] = 68,
+        ["blipColor"] = 3,
+        ["type"] = "depot",                --public, job, gang, depot
+        ["vehicle"] = "car"                 --car, air, sea, rig
+    },
+    ["vinewoodimpoundlot"] = {
+        ["label"] = "Vinewood Depot",
+        ["takeVehicle"] = vector3(-518.0, 54.26, 52.58),
+        ["spawnPoint"] = vector4(-518.0, 54.26, 52.58, 87.74),
+        ["showBlip"] = true,
+        ["blipName"] = "Depot",
         ["blipNumber"] = 68,
         ["blipColor"] = 3,
         ["type"] = "depot",                --public, job, gang, depot
@@ -265,17 +298,17 @@ Config.Garages = {
         ["job"] = "ogmafia",
         ["jobType"] = "ogmafia"
     },
-    -- ["hayesdepot"] = {
-    --     ["label"] = "Hayes Depot",
-    --     ["takeVehicle"] = vector3(491.0, -1314.69, 29.25),
-    --     ["spawnPoint"] = vector4(491.0, -1314.69, 29.25, 304.5),
-    --     ["showBlip"] = true,
-    --     ["blipName"] = "Hayes Depot",
-    --     ["blipNumber"] = 68,
-    --     ["blipColor"] = 3,
-    --     ["type"] = "depot",                --public, job, gang, depot
-    --     ["vehicle"] = "car"                 --car, air, sea, rig
-    -- },
+    ["hayesdepot"] = {
+        ["label"] = "Hayes Depot",
+        ["takeVehicle"] = vector3(491.0, -1314.69, 29.25),
+        ["spawnPoint"] = vector4(491.0, -1314.69, 29.25, 304.5),
+        ["showBlip"] = true,
+        ["blipName"] = "Hayes Depot",
+        ["blipNumber"] = 68,
+        ["blipColor"] = 3,
+        ["type"] = "depot",                --public, job, gang, depot
+        ["vehicle"] = "car"                 --car, air, sea, rig
+    },
     -- ["ballas"] = {
     --     ["label"] = "Ballas",
     --     ["takeVehicle"] = vector3(98.50, -1954.49, 20.84),
