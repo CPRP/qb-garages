@@ -172,10 +172,10 @@ Config.Garages = {
         ["type"] = "public",                --public, job, gang, depot
         ["vehicle"] = "car"                 --car, air, sea, rig
     },
-    ["Pillbox"] = {
-        ["label"] = "Legion Garage",
+    ["pillboxgarage"] = {
+        ["label"] = "Pillbox Garage Parking",
         ["takeVehicle"] = vector3(213.73, -809.09, 31.01),
-        ["spawnPoint"] = vector4(240.31, -770.37, 30.75, 43.06),
+        ["spawnPoint"] = vector4(238.11, -776.97, 30.69, 158.51),
         ["putVehicle"] = vector3(218.0894, -781.370, 30.389),
         ["showBlip"] = true,
         ["blipName"] = "Public Parking",
