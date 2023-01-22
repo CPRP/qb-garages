@@ -326,19 +326,19 @@ Config.Garages = {
         ["job"] = "yellowgang",
         ["jobType"] = "yellowgang"
     },
-    ["ogmafia"] = {
-        ["label"] = "OG Mafia Bloods",
+    ["mantle"] = {
+        ["label"] = "Mantle Enterprises",
         ["takeVehicle"] = vector3(-1566.09, -396.17, 41.98),
         ["spawnPoint"] = vector4(-1550.86, -415.3, 41.99, 320.78),
         ["putVehicle"] = vector3(-1568.62, -391.51, 41.98),
         ["showBlip"] = false,
-        ["blipName"] = "OG Mafia Bloods",
+        ["blipName"] = "Mantle Enterprises",
         ["blipNumber"] = 291,
         ["blipColor"] = 3,
         ["type"] = 'gang',                --public, job, gang, depot
         ["vehicle"] = 'car',              --car, air, sea
-        ["job"] = "ogmafia",
-        ["jobType"] = "ogmafia"
+        ["job"] = "mantle",
+        ["jobType"] = "mantle"
     },
     ["hayesdepot"] = {
         ["label"] = "Hayes Depot",
