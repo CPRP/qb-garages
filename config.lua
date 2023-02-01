@@ -256,19 +256,19 @@ Config.Garages = {
         ["job"] = "thesaints",
         ["jobType"] = "thesaints"
     },
-    ["vagos"] = {
-        ["label"] = "Vagos",
-        ["takeVehicle"] = vector3(29.71, 6456.36, 31.43),
-        ["spawnPoint"] = vector4(41.25, 6451.1, 31.43, 232.24),
-        ["putVehicle"] = vector3(33.05, 6457.62, 31.43),
+    ["mafiacrip"] = {
+        ["label"] = "Mafia Crip",
+        ["takeVehicle"] = vector3(11.75, -1816.02, 25.36),
+        ["spawnPoint"] = vector4(15.38, -1821.75, 24.97, 136.99),
+        ["putVehicle"] = vector3(13.16, -1817.96, 25.23),
         ["showBlip"] = false,
-        ["blipName"] = "Vagos",
+        ["blipName"] = "Mafia Crip",
         ["blipNumber"] = 291,
         ["blipColor"] = 3,
         ["type"] = 'gang',                --public, job, gang, depot
         ["vehicle"] = 'car',              --car, air, sea
-        ["job"] = "vagos",
-        ["jobType"] = "vagos"
+        ["job"] = "mafiacrip",
+        ["jobType"] = "mafiacrip"
     },
     ["yellowgang"] = {
         ["label"] = "Yellow Gang",
