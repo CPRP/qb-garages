@@ -90,13 +90,7 @@ QBCore.Functions.CreateCallback("qb-garage:server:checkOwnership", function(sour
             if result[1] then
                 cb(true)
             else
-                MySQL.query('SELECT * FROM player_vehicles WHERE fakeplate = ? AND citizenid = ?',{plate, pData.PlayerData.citizenid}, function(fakeplate) -- ADDED FOR brazzers-fakeplates
-                    if fakeplate[1] then
-                        cb(true)
-                    else
-                        cb(false)
-                    end
-                end)
+                cb(false)
             end
         end)
     elseif type == "house" then     --House garages only for player cars that have keys of the house
@@ -106,13 +100,7 @@ QBCore.Functions.CreateCallback("qb-garage:server:checkOwnership", function(sour
                 if hasHouseKey then
                     cb(true)
                 else
-                    MySQL.query('SELECT * FROM player_vehicles WHERE fakeplate = ? AND citizenid = ?',{plate, pData.PlayerData.citizenid}, function(fakeplate) -- ADDED FOR brazzers-fakeplates
-                        if fakeplate[1] then
-                            cb(true)
-                        else
-                            cb(false)
-                        end
-                    end)
+                    cb(false)
                 end
             else
                 cb(false)
@@ -146,13 +134,7 @@ QBCore.Functions.CreateCallback("qb-garage:server:checkOwnership", function(sour
             if result[1] then
                 cb(true)
             else
-                MySQL.query('SELECT * FROM player_vehicles WHERE fakeplate = ?',{plate}, function(fakeplate) -- ADDED FOR brazzers-fakeplates
-                    if fakeplate[1] then
-                        cb(true)
-                    else
-                        cb(false)
-                    end
-                end)
+                cb(false)
             end
         end)
     end
@@ -161,8 +143,6 @@ end)
 QBCore.Functions.CreateCallback('qb-garage:server:spawnvehicle', function (source, cb, vehInfo, coords, warp)
     local plate = vehInfo.plate
     local veh = QBCore.Functions.SpawnVehicle(source, vehInfo.vehicle, coords, warp)
-    local hasFakePlate = exports['brazzers-fakeplates']:getFakePlateFromPlate(plate) -- ADDED THIS LINE FOR brazzers-fakeplates
-    if hasFakePlate then SetVehicleNumberPlateText(veh, hasFakePlate) else SetVehicleNumberPlateText(veh, plate) end -- ADDED THIS LINE FOR brazzers-fakeplates
     SetEntityHeading(veh, coords.w)
     local vehProps = {}
     local result = MySQL.query.await('SELECT mods FROM player_vehicles WHERE plate = ?', {plate})
@@ -198,21 +178,11 @@ RegisterNetEvent('qb-garage:server:updateVehicle', function(state, fuel, engine,
         if owned then
             if state == 0 or state == 1 or state == 2 then                                          --Check state value
                 if type ~= "house" then
-                    if Config.Garages[garage] then 
-                        local hasFakePlate = exports['brazzers-fakeplates']:isFakePlateOnVehicle(plate)  -- ADDED THIS LINE FOR brazzers-fakeplates
-                        if hasFakePlate then -- ADDED THIS LINE FOR brazzers-fakeplates
-                            --Check if garage is existing
-                            MySQL.update('UPDATE player_vehicles SET state = ?, garage = ?, fuel = ?, engine = ?, body = ? WHERE fakeplate = ?', {state, garage, fuel, engine, body, plate})
-                        else
-                            MySQL.update('UPDATE player_vehicles SET state = ?, garage = ?, fuel = ?, engine = ?, body = ? WHERE plate = ?', {state, garage, fuel, engine, body, plate})
-                        end
-                    end
-                else
-                    if hasFakePlate then -- ADDED THIS LINE FOR brazzers-fakeplates
-                        MySQL.update('UPDATE player_vehicles SET state = ?, garage = ?, fuel = ?, engine = ?, body = ? WHERE fakeplate = ?', {state, garage, fuel, engine, body, plate})
-                    else
+                    if Config.Garages[garage] then                                                             --Check if garage is existing
                         MySQL.update('UPDATE player_vehicles SET state = ?, garage = ?, fuel = ?, engine = ?, body = ? WHERE plate = ?', {state, garage, fuel, engine, body, plate})
                     end
+                else
+                    MySQL.update('UPDATE player_vehicles SET state = ?, garage = ?, fuel = ?, engine = ?, body = ? WHERE plate = ?', {state, garage, fuel, engine, body, plate})
                 end
             end
         else
